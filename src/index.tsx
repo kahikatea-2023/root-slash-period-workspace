@@ -71,9 +71,14 @@ const app = new Elysia()
   .get('/styles.css', () => Bun.file('./tailwind-gen/styles.css'))
   .listen(3000)
 
-console.log(
-  `🦊 Elysia is running at http://${app.server?.hostname}:${app.server?.port}`
-)
+const server = Bun.serve({
+  port: 3000,
+  fetch(req) {
+    return new Response(`Bun!`)
+  },
+})
+
+console.log(`Listening on http://localhost:${server.port}...`)
 
 const BaseHtml = ({ children }: elements.Children) => `
 <!DOCTYPE html>
