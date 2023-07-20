@@ -6,6 +6,8 @@ import { Todo, todos } from './db/schema'
 import { eq } from 'drizzle-orm'
 
 const app = new Elysia()
+
+  // ----- BASE HTML ------
   .use(html())
   .get('/', ({ html }) =>
     html(
@@ -19,6 +21,13 @@ const app = new Elysia()
       </BaseHtml>
     )
   )
+  // ------ HOME ------
+  .get('/home', async () => {
+    // HTMX calls DB and returns JSX html
+    const data = await db.select().from()
+
+  })
+
   // .get('/todos', async () => {
   //   const data = await db.select().from(todos).all()
   //   return <TodoList todos={data} />
@@ -85,6 +94,11 @@ const BaseHtml = ({ children }: elements.Children) => `
 
 ${children}
 `
+
+// ----- HOME ----- JSX home component
+function HomePage() {
+  return <div>hi</div>
+}
 
 // function TodoItem({ content, completed, id }: Todo) {
 //   return (
