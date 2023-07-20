@@ -10,15 +10,15 @@ const app = new Elysia()
   .get('/', ({ html }) =>
     html(
       <BaseHtml>
-        <body
-          class="flex w-full h-screen justify-center items-center"
-          hx-get="/todos"
-          hx-swap="innerHTML"
-          hx-trigger="load"
-        />
+        <body hx-get="/home" hx-swap="innerHTML" hx-trigger="load" />
       </BaseHtml>
     )
   )
+
+  .get('/home', async () => {
+    return <Header />
+  })
+
   // .get('/todos', async () => {
   //   const data = await db.select().from(todos).all()
   //   return <TodoList todos={data} />
@@ -85,6 +85,14 @@ const BaseHtml = ({ children }: elements.Children) => `
 
 ${children}
 `
+
+// -----Header------ JSX header component
+
+function Header() {
+  return (
+    <div class="flex flex-col font-sans text-cyan-400">This is the header</div>
+  )
+}
 
 // function TodoItem({ content, completed, id }: Todo) {
 //   return (
