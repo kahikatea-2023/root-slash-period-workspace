@@ -2,8 +2,9 @@ import { Elysia, t } from 'elysia'
 import { html } from '@elysiajs/html'
 import * as elements from 'typed-html'
 import { db } from './db'
-import { Todo, todos } from './db/schema'
 import { eq } from 'drizzle-orm'
+import * as fs from 'fs'
+import { Album } from './db/schema'
 
 const app = new Elysia()
 
@@ -134,8 +135,26 @@ function Header() {
   )
 }
 
+// ---------------- DB -------------- //
+
+async function createDB() {
+  try {
+    // Read the data from the albums.json file
+    const rawData = fs.readFileSync('albums.json', 'utf-8')
+    const albumsData = JSON.parse(rawData)
+
+    // Insert the data into the Album table
+    await db.insert(Album).values(albumsData.albums).run()
+
+    console.log('Data added to the local database.')
+  } catch (error: any) {
+    console.error('Error inserting data into the database:', error.message)
+  }
+}
+
 // ----- HOME ----- JSX
 // pass information array as Data and map through items
+
 function HomePage() {
   return (
     <div>
