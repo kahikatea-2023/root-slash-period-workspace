@@ -179,6 +179,330 @@
       "price": 21,
       "completed": false,
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/TheChronic.jpg/220px-TheChronic.jpg"
+    },
+    {
+      "name": "Back to Black",
+      "author": "Amy Winehouse",
+      "yearOfRelease": 2006,
+      "genre": "Soul",
+      "price": 17,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Amy_Winehouse_-_Back_to_Black_%28album%29.jpg/220px-Amy_Winehouse_-_Back_to_Black_%28album%29.jpg"
+    },
+    {
+      "name": "The White Album",
+      "author": "The Beatles",
+      "yearOfRelease": 1968,
+      "genre": "Rock",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/TheBeatlesWhiteAlbum-OriginalCover.jpg/220px-TheBeatlesWhiteAlbum-OriginalCover.jpg"
+    },
+    {
+      "name": "Born in the U.S.A.",
+      "author": "Bruce Springsteen",
+      "yearOfRelease": 1984,
+      "genre": "Rock",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bruce_Springsteen_-_Born_in_the_U.S.A..jpg/220px-Bruce_Springsteen_-_Born_in_the_U.S.A..jpg"
+    },
+    {
+      "name": "A Night at the Roxbury",
+      "author": "Various Artists",
+      "yearOfRelease": 1998,
+      "genre": "Soundtrack",
+      "price": 15,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/A_Night_at_the_Roxbury_soundtrack.jpg/220px-A_Night_at_the_Roxbury_soundtrack.jpg"
+    },
+    {
+      "name": "Viva la Vida or Death and All His Friends",
+      "author": "Coldplay",
+      "yearOfRelease": 2008,
+      "genre": "Alternative",
+      "price": 16,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.jpg/220px-Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.jpg"
+    },
+    {
+      "name": "Meteora",
+      "author": "Linkin Park",
+      "yearOfRelease": 2003,
+      "genre": "Alternative",
+      "price": 19,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Linkin_Park_-_Meteora.jpg/220px-Linkin_Park_-_Meteora.jpg"
+    },
+    {
+      "name": "Legend",
+      "author": "Bob Marley and the Wailers",
+      "yearOfRelease": 1984,
+      "genre": "Reggae",
+      "price": 16,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Legend_%28Bob_Marley_%26_The_Wailers_album%29.jpg/220px-Legend_%28Bob_Marley_%26_The_Wailers_album%29.jpg"
+    },
+    {
+      "name": "Hysteria",
+      "author": "Def Leppard",
+      "yearOfRelease": 1987,
+      "genre": "Rock",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Def_Leppard_-_Hysteria.jpg/220px-Def_Leppard_-_Hysteria.jpg"
+    },
+    {
+      "name": "Appetite for Destruction",
+      "author": "Guns N' Roses",
+      "yearOfRelease": 1987,
+      "genre": "Rock",
+      "price": 17,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Guns_N%27_Roses_-_Appetite_for_Destruction.jpg/220px-Guns_N%27_Roses_-_Appetite_for_Destruction.jpg"
+    },
+    {
+      "name": "Diamond Life",
+      "author": "Sade",
+      "yearOfRelease": 1984,
+      "genre": "Soul",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Diamond_Life.jpg/220px-Diamond_Life.jpg"
+    },
+    {
+      "name": "Bat Out of Hell",
+      "author": "Meat Loaf",
+      "yearOfRelease": 1977,
+      "genre": "Rock",
+      "price": 21,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/MeatLoafBatOutofHell.jpg/220px-MeatLoafBatOutofHell.jpg"
+    },
+    {
+      "name": "Purple Rain",
+      "author": "Prince",
+      "yearOfRelease": 1984,
+      "genre": "Pop",
+      "price": 19,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Princepurplerain.jpg/220px-Princepurplerain.jpg"
+    },
+    {
+      "name": "The Joshua Tree",
+      "author": "U2",
+      "yearOfRelease": 1987,
+      "genre": "Rock",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/U2_The_Joshua_Tree.jpg/220px-U2_The_Joshua_Tree.jpg"
+    },
+    {
+      "name": "Hotel California",
+      "author": "Eagles",
+      "yearOfRelease": 1976,
+      "genre": "Rock",
+      "price": 21,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/220px-Hotelcalifornia.jpg"
+    },
+    {
+      "name": "Thriller",
+      "author": "Michael Jackson",
+      "yearOfRelease": 1982,
+      "genre": "Pop",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png"
+    },
+    {
+      "name": "Rumours",
+      "author": "Fleetwood Mac",
+      "yearOfRelease": 1977,
+      "genre": "Rock",
+      "price": 19,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/FleetwoodMacRumours.jpg/220px-FleetwoodMacRumours.jpg"
+    },
+    {
+      "name": "Nevermind",
+      "author": "Nirvana",
+      "yearOfRelease": 1991,
+      "genre": "Grunge",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "name": "Led Zeppelin IV",
+      "author": "Led Zeppelin",
+      "yearOfRelease": 1971,
+      "genre": "Rock",
+      "price": 22,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg/220px-Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
+    },
+    {
+      "name": "In Utero",
+      "author": "Nirvana",
+      "yearOfRelease": 1993,
+      "genre": "Grunge",
+      "price": 17,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/NirvanaInUteroalbumcover.jpg/220px-NirvanaInUteroalbumcover.jpg"
+    },
+    {
+      "name": "The Wall",
+      "author": "Pink Floyd",
+      "yearOfRelease": 1979,
+      "genre": "Progressive Rock",
+      "price": 23,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pink_Floyd_-_The_Wall.jpg/220px-Pink_Floyd_-_The_Wall.jpg"
+    },
+    {
+      "name": "Like a Virgin",
+      "author": "Madonna",
+      "yearOfRelease": 1984,
+      "genre": "Pop",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/MadonnaLikeAVirgin%28album%29.png/220px-MadonnaLikeAVirgin%28album%29.png"
+    },
+    {
+      "name": "Ten",
+      "author": "Pearl Jam",
+      "yearOfRelease": 1991,
+      "genre": "Grunge",
+      "price": 19,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/PearlJam-Ten2.jpg/220px-PearlJam-Ten2.jpg"
+    },
+    {
+      "name": "Dark Side of the Moon",
+      "author": "Pink Floyd",
+      "yearOfRelease": 1973,
+      "genre": "Progressive Rock",
+      "price": 21,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png"
+    },
+    {
+      "name": "The Eminem Show",
+      "author": "Eminem",
+      "yearOfRelease": 2002,
+      "genre": "Hip Hop",
+      "price": 17,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/The_Eminem_Show.jpg/220px-The_Eminem_Show.jpg"
+    },
+    {
+      "name": "Blood Sugar Sex Magik",
+      "author": "Red Hot Chili Peppers",
+      "yearOfRelease": 1991,
+      "genre": "Rock",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedHotChiliPeppersBloodSugarSexMagik.jpg/220px-RedHotChiliPeppersBloodSugarSexMagik.jpg"
+    },
+    {
+      "name": "Songs in the Key of Life",
+      "author": "Stevie Wonder",
+      "yearOfRelease": 1976,
+      "genre": "Soul",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Songs_in_the_Key_of_Life.png/220px-Songs_in_the_Key_of_Life.png"
+    },
+    {
+      "name": "Supernatural",
+      "author": "Santana",
+      "yearOfRelease": 1999,
+      "genre": "Rock",
+      "price": 21,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/SantanaSupernaturalAlbum.jpg/220px-SantanaSupernaturalAlbum.jpg"
+    },
+    {
+      "name": "Back in Black",
+      "author": "AC/DC",
+      "yearOfRelease": 1980,
+      "genre": "Rock",
+      "price": 22,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/ACDC_Back_in_Black.jpg/220px-ACDC_Back_in_Black.jpg"
+    },
+    {
+      "name": "The Suburbs",
+      "author": "Arcade Fire",
+      "yearOfRelease": 2010,
+      "genre": "Indie Rock",
+      "price": 17,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/The_Suburbs_%28Arcade_Fire_album%29.jpg/220px-The_Suburbs_%28Arcade_Fire_album%29.jpg"
+    },
+    {
+      "name": "Californication",
+      "author": "Red Hot Chili Peppers",
+      "yearOfRelease": 1999,
+      "genre": "Rock",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/RedHotChiliPeppersCalifornication.jpg/220px-RedHotChiliPeppersCalifornication.jpg"
+    },
+    {
+      "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "author": "David Bowie",
+      "yearOfRelease": 1972,
+      "genre": "Glam Rock",
+      "price": 19,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/David-Bowie-The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spiders-from-Mars.jpg/220px-David-Bowie-The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spiders-from-Mars.jpg"
+    },
+    {
+      "name": "The Doors",
+      "author": "The Doors",
+      "yearOfRelease": 1967,
+      "genre": "Rock",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Doorsalbumpromo.jpg/220px-Doorsalbumpromo.jpg"
+    },
+    {
+      "name": "Court and Spark",
+      "author": "Joni Mitchell",
+      "yearOfRelease": 1974,
+      "genre": "Folk",
+      "price": 17,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Joni_Mitchell_-_Court_and_Spark.jpg/220px-Joni_Mitchell_-_Court_and_Spark.jpg"
+    },
+    {
+      "name": "Are You Experienced",
+      "author": "Jimi Hendrix",
+      "yearOfRelease": 1967,
+      "genre": "Psychedelic Rock",
+      "price": 18,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/AreYouExperienced.jpg/220px-AreYouExperienced.jpg"
+    },
+    {
+      "name": "Goodbye Yellow Brick Road",
+      "author": "Elton John",
+      "yearOfRelease": 1973,
+      "genre": "Rock",
+      "price": 19,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Goodbye_Yellow_Brick_Road.png/220px-Goodbye_Yellow_Brick_Road.png"
+    },
+    {
+      "name": "London Calling",
+      "author": "The Clash",
+      "yearOfRelease": 1979,
+      "genre": "Punk Rock",
+      "price": 20,
+      "completed": false,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/LondonCallingLondonCalling.jpg/220px-LondonCallingLondonCalling.jpg"
     }
   ]
 }
