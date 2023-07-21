@@ -91,6 +91,7 @@ ${children}
 function Header() {
   return (
     <div>
+      {/* Main Header */}
       <div class="bg-[#ef4136] w-screen flex flex-row items-end justify-between">
         <img
           class=" w-80 h-16"
@@ -100,6 +101,23 @@ function Header() {
         <h1 class="text-white font-bold ">
           NEW ZEALAND’S LEADING MUSIC SPECIALIST
         </h1>
+      </div>
+      <div class="w-full flex justify-between">
+        {/* Sub Header */}
+        <ul class="flex flex-row items-end justify-evenly text-[#ef4136] font-bold">
+          <li>Classical</li>
+          <li>Pop & Jazz</li>
+          <li>DVD</li>
+          <li>Vinyl</li>
+          <li>Contact Us</li>
+        </ul>
+
+        {/* Search Header */}
+        <ul class="flex flex-row items-end">
+          <li>My Account</li>
+          <li>Cart</li>
+          <li>Checkout</li>
+        </ul>
       </div>
     </div>
   )
