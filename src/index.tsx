@@ -13,8 +13,8 @@ const app = new Elysia()
     html(
       <BaseHtml>
         <body
-          class="flex w-full h-screen justify-center items-center"
-          hx-get="/todos"
+          class="px-20"
+          hx-get="/home"
           hx-swap="innerHTML"
           hx-trigger="load"
         />
@@ -23,9 +23,12 @@ const app = new Elysia()
   )
   // ------ HOME ------
   .get('/home', async () => {
-    // HTMX calls DB and returns JSX html
-    const data = await db.select().from()
+    // Route calls DB schema
+    // const data = await db.select().from(todos).all()
 
+    // returns JSX elemeent and passes the data retrieved as props
+
+    return <HomePage />
   })
 
   // .get('/todos', async () => {
@@ -95,9 +98,91 @@ const BaseHtml = ({ children }: elements.Children) => `
 ${children}
 `
 
-// ----- HOME ----- JSX home component
+// ----- HOME ----- JSX
+// pass information array as Data and map through items
 function HomePage() {
-  return <div>hi</div>
+  // JSX structure
+
+  return (
+    <div>
+      <div class="flex flex-row items-start">
+        <div class="w-2/12 m-2">
+          <ul>
+            <li class="bg-[#e7e1e4] ">Home</li>
+            <li>Best Versions</li>
+            <li>Boxed Sets</li>
+            <li>Naxos 2023 releases</li>
+            <li>Classical Award Winners</li>
+            <li>Marbecks Collectables</li>
+            <li>On Sale</li>
+            <li>Hidden Treasures</li>
+            <li>Rare & Collectable</li>
+            <li>Must Watch!</li>
+            <li>Gift Vouchers</li>
+            <li>Accessories</li>
+            <li>Storage</li>
+            <li class="bg-[#e7e1e4] ">Info</li>
+            <li>Info / Help</li>
+            <li>Newsletters</li>
+            <li>About Us</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class="w-10/12 broder-1 border-solid border-[#dcd3d7] bg-[#f7f5f6] m-2">
+          <div>
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+              New & Upcoming Releases
+            </div>
+
+            <div class="bg-[#e7e1e4] rounded-b-md">
+              » Explore More New Releases Here
+            </div>
+          </div>
+          <div>
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+              Reviewed In Viva
+            </div>
+            <div class="bg-[#e7e1e4] rounded-b-md text-[#039]">
+              » Find Out More Here
+            </div>
+          </div>
+          <div>
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+              Upcoming Albums To Pre-order
+            </div>
+            <div class="bg-[#e7e1e4] rounded-b-md text-[#039]">
+              » Explore More Albums On The Horizon Here
+            </div>
+          </div>
+          <div>
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+              New Jazz Arrivals
+            </div>
+            <div class="bg-[#e7e1e4] rounded-b-md text-[#039]">
+              » Find more new and reissued Jazz albums here
+            </div>
+            <div>
+              <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+                We Have Over 4000 LPs in Stock
+              </div>
+              <div class="bg-[#e7e1e4] rounded-b-md p-1 m-1 text-[#039]">
+                » Browse All Of Our In Stock Vinyl
+              </div>
+            </div>
+          </div>
+          <div>
+            Marbecks Records Est. 1934 Marbecks Records is New Zealand’s leading
+            music specialist store selling CD’s, DVD’s and Vinyl, catering not
+            only to the connoisseurs of classical music, but more to what our
+            customers want encompassing Jazz, Audio Books, World Music,
+            International Film and interesting imports we think you will adore.
+            Let’s face it… We are all passionate about music, and that’s why
+            we’re here! Read more about Marbecks Records…
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 // function TodoItem({ content, completed, id }: Todo) {
@@ -119,17 +204,6 @@ function HomePage() {
 //       >
 //         X
 //       </button>
-//     </div>
-//   )
-// }
-
-// function TodoList({ todos }: { todos: Todo[] }) {
-//   return (
-//     <div>
-//       {todos.map((todo) => (
-//         <TodoItem {...todo} />
-//       ))}
-//       <TodoForm />
 //     </div>
 //   )
 // }
