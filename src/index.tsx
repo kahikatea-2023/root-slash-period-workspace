@@ -104,7 +104,7 @@ function Header() {
       </div>
       <div class="w-full flex justify-between">
         {/* Sub Header */}
-        <ul class="flex flex-row items-end justify-evenly text-[#ef4136] font-bold">
+        <ul class="flex flex-row items-end justify-evenly text-[#ef4136] font-bold space-x-4">
           <li>Classical</li>
           <li>Pop & Jazz</li>
           <li>DVD</li>
@@ -113,7 +113,7 @@ function Header() {
         </ul>
 
         {/* Search Header */}
-        <ul class="flex flex-row items-end">
+        <ul class="flex flex-row items-end space-x-4">
           <li>My Account</li>
           <li>Cart</li>
           <li>Checkout</li>
