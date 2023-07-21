@@ -28,7 +28,6 @@ const app = new Elysia()
       <div>
         <Header />
         <HomePage />
-        <Footer />
       </div>
     )
   })
@@ -375,6 +374,7 @@ function HomePage() {
                 » Browse All Of Our In Stock Vinyl
               </div>
             </div>
+            <Footer />
           </div>
         </div>
       </div>
@@ -386,7 +386,7 @@ function HomePage() {
 
 function Footer() {
   return (
-    <div class="w-11/12 ">
+    <div>
       <div class="border border-solid border-[#dcd3d7] bg-[#f7f5f6] rounded-sm p-1 m-1 ">
         <h2 class="text-[#ef4136] font-bold">Marbecks Records Est. 1934</h2>
         <p>
