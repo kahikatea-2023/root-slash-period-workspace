@@ -160,56 +160,106 @@ function HomePage() {
             <li>Privacy</li>
           </ul>
         </div>
-        <div class="w-10/12 broder-1 border-solid border-[#dcd3d7] bg-[#f7f5f6] m-2">
+        <div class="w-10/12 broder-1 border-solid border-[#dcd3d7] bg-[#f7f5f6]">
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium m-1 p-1">
               New & Upcoming Releases
             </div>
-
-            <div class="bg-[#e7e1e4] rounded-b-md  text-[#039] hover:text-[#4d1a80]">
+            <div class="flex flex-row">
+              <div class="bg-[#e7e1e4] w-1/2 m-1">
+                <h2 class="text-[#ef4136] font-medium">Ryuichi Sakamoto</h2>
+                <p class="italic mb-1">12</p>
+                <p>
+                  An intimate collection of twelve compositions by Ryuichi
+                  Sakamoto, written and recorded in Tokyo during...
+                </p>
+                <p>$25.00</p>
+              </div>
+              <div class="bg-[#e7e1e4] w-1/2 m-1">
+                <h2 class="text-[#ef4136] font-medium">African Head Charge</h2>
+                <p class="italic mb-1">A Trip To Bolgatanga</p>
+                <p>
+                  African Head Charge, the legendary collaboration between
+                  master percussionist Bonjo Iyabinghi Noah and...
+                </p>
+                <p>$37.00</p>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div class="bg-[#e7e1e4] w-1/2 m-1">
+                <h2 class="text-[#ef4136] font-medium">Ryuichi Sakamoto</h2>
+                <p class="italic mb-1">12</p>
+                <p>
+                  An intimate collection of twelve compositions by Ryuichi
+                  Sakamoto, written and recorded in Tokyo during...
+                </p>
+                <p>$25.00</p>
+              </div>
+              <div class="bg-[#e7e1e4] w-1/2 m-1">
+                <h2 class="text-[#ef4136] font-medium">African Head Charge</h2>
+                <p class="italic mb-1">A Trip To Bolgatanga</p>
+                <p>
+                  African Head Charge, the legendary collaboration between
+                  master percussionist Bonjo Iyabinghi Noah and...
+                </p>
+                <p>$37.00</p>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div class="bg-[#e7e1e4] w-1/2 m-1">
+                <h2 class="text-[#ef4136] font-medium">Ryuichi Sakamoto</h2>
+                <p class="italic mb-1">12</p>
+                <p>
+                  An intimate collection of twelve compositions by Ryuichi
+                  Sakamoto, written and recorded in Tokyo during...
+                </p>
+                <p>$25.00</p>
+              </div>
+              <div class="bg-[#e7e1e4] w-1/2 m-1">
+                <h2 class="text-[#ef4136] font-medium">African Head Charge</h2>
+                <p class="italic mb-1">A Trip To Bolgatanga</p>
+                <p>
+                  African Head Charge, the legendary collaboration between
+                  master percussionist Bonjo Iyabinghi Noah and...
+                </p>
+                <p>$37.00</p>
+              </div>
+            </div>
+            <div class="bg-[#e7e1e4] rounded-b-md  text-[#039] hover:text-[#4d1a80] m-1 p-1">
               » Explore More New Releases Here
             </div>
           </div>
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium m-1 p-1">
               Reviewed In Viva
             </div>
-            <div class="bg-[#e7e1e4] rounded-b-md text-[#039]">
+            <div class="bg-[#e7e1e4] rounded-b-md text-[#039] hover:text-[#4d1a80] m-1 p-1">
               » Find Out More Here
             </div>
           </div>
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium m-1 p-1">
               Upcoming Albums To Pre-order
             </div>
-            <div class="bg-[#e7e1e4] rounded-b-md text-[#039]">
+            <div class="bg-[#e7e1e4] rounded-b-md text-[#039] hover:text-[#4d1a80] m-1 p-1">
               » Explore More Albums On The Horizon Here
             </div>
           </div>
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium m-1 p-1">
               New Jazz Arrivals
             </div>
-            <div class="bg-[#e7e1e4] rounded-b-md text-[#039]">
+            <div class="bg-[#e7e1e4] rounded-b-md text-[#039] hover:text-[#4d1a80] m-1 p-1">
               » Find more new and reissued Jazz albums here
             </div>
             <div>
-              <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium">
+              <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-medium m-1 p-1">
                 We Have Over 4000 LPs in Stock
               </div>
-              <div class="bg-[#e7e1e4] rounded-b-md p-1 m-1 text-[#039]">
+              <div class="bg-[#e7e1e4] rounded-b-md p-1 m-1 text-[#039] hover:text-[#4d1a80]">
                 » Browse All Of Our In Stock Vinyl
               </div>
             </div>
-          </div>
-          <div>
-            Marbecks Records Est. 1934 Marbecks Records is New Zealand’s leading
-            music specialist store selling CD’s, DVD’s and Vinyl, catering not
-            only to the connoisseurs of classical music, but more to what our
-            customers want encompassing Jazz, Audio Books, World Music,
-            International Film and interesting imports we think you will adore.
-            Let’s face it… We are all passionate about music, and that’s why
-            we’re here! Read more about Marbecks Records…
           </div>
         </div>
       </div>
