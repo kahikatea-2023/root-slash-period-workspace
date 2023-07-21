@@ -2,7 +2,6 @@ import { Elysia, t } from 'elysia'
 import { html } from '@elysiajs/html'
 import * as elements from 'typed-html'
 import { db } from './db'
-import { Todo, todos } from './db/schema'
 import { eq } from 'drizzle-orm'
 
 const app = new Elysia()
@@ -126,6 +125,25 @@ function Header() {
       </div>
     </div>
   )
+}
+
+// ---------------- DB -------------- //
+import * as fs from 'fs'
+import { Album } from './db/schema'
+
+async function createDB() {
+  try {
+    // Read the data from the albums.json file
+    const rawData = fs.readFileSync('albums.json', 'utf-8')
+    const albumsData = JSON.parse(rawData)
+
+    // Insert the data into the Album table
+    await db.insert(Album).values(albumsData.albums).run()
+
+    console.log('Data added to the local database.')
+  } catch (error: any) {
+    console.error('Error inserting data into the database:', error.message)
+  }
 }
 
 // -----Footer------ JSX footer component
