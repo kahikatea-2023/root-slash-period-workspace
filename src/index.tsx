@@ -140,7 +140,7 @@ function HomePage() {
   return (
     <div>
       <div class="flex flex-row items-start">
-        <div class="w-2/12 m-2">
+        <div class="w-1/12 m-2 text-sm">
           <ul>
             <li class="bg-[#e7e1e4] ">Home</li>
             <li>Best Versions</li>
@@ -162,10 +162,10 @@ function HomePage() {
             <li>Privacy</li>
           </ul>
         </div>
-        <div class="w-10/12 border border-solid border-[#dcd3d7] bg-[#f7f5f6]">
+        <div class="w-11/12 border border-solid border-[#dcd3d7] bg-[#f7f5f6]">
           {/* ----------------------------------- ROWS OF 2 ARTISTS ------------------------------------ */}
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-bold m-2 border border-solid border-[#dcd3d7]">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-2 border border-solid border-[#dcd3d7]">
               New & Upcoming Releases
             </div>
             <div class="flex flex-row">
@@ -265,7 +265,7 @@ function HomePage() {
 
           <div>
             {/* ----------------------------------- ROWS OF 4 ARTISTS NEW STYLE ------------------------------------ */}
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-bold m-2 p-1  border border-solid border-[#dcd3d7]">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-2 p-1  border border-solid border-[#dcd3d7]">
               Reviewed In Viva
             </div>
             <div>
@@ -329,30 +329,30 @@ function HomePage() {
                 </div>
               </div>
             </div>
-            <div class="bg-[#e7e1e4] rounded-b-md text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
+            <div class="bg-[#e7e1e4] rounded-b-sm text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
               » Find Out More Here
             </div>
           </div>
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
               Upcoming Albums To Pre-order
             </div>
-            <div class="bg-[#e7e1e4] rounded-b-md text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
+            <div class="bg-[#e7e1e4] rounded-b-sm text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
               » Explore More Albums On The Horizon Here
             </div>
           </div>
           <div>
-            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
+            <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
               New Jazz Arrivals
             </div>
-            <div class="bg-[#e7e1e4] rounded-b-md text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
+            <div class="bg-[#e7e1e4] rounded-b-sm text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
               » Find more new and reissued Jazz albums here
             </div>
             <div>
-              <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-md font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
+              <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
                 We Have Over 4000 LPs in Stock
               </div>
-              <div class="bg-[#e7e1e4] rounded-b-md p-1 m-1 text-[#039] hover:text-[#4d1a80] border border-solid border-[#dcd3d7]">
+              <div class="bg-[#e7e1e4] rounded-b-sm p-1 m-1 text-[#039] hover:text-[#4d1a80] border border-solid border-[#dcd3d7]">
                 » Browse All Of Our In Stock Vinyl
               </div>
             </div>
@@ -367,8 +367,8 @@ function HomePage() {
 
 function Footer() {
   return (
-    <div class="flex justify-end ">
-      <div class="w-10/12 border border-solid border-[#dcd3d7] bg-[#f7f5f6] rounded-md p-1 m-1 ">
+    <div class="w-11/12 ">
+      <div class="border border-solid border-[#dcd3d7] bg-[#f7f5f6] rounded-sm p-1 m-1 ">
         <h2 class="text-[#ef4136] font-bold">Marbecks Records Est. 1934</h2>
         <p>
           Marbecks Records is New Zealand’s leading music specialist store
