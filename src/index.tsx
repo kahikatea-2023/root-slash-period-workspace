@@ -90,7 +90,12 @@ ${children}
 
 function Header() {
   return (
-    <div class="flex flex-col font-sans text-cyan-400">This is the header</div>
+    <div>
+      <img src="/images/header.png" alt="Marbecks logo" />
+      <h1>NEW ZEALAND’S LEADING MUSIC SPECIALIST</h1>
+
+      <p class="flex flex-col font-sans text-cyan-400">This is the header</p>
+    </div>
   )
 }
 
