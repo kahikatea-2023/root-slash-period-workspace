@@ -91,10 +91,16 @@ ${children}
 function Header() {
   return (
     <div>
-      <img src="/images/header.png" alt="Marbecks logo" />
-      <h1>NEW ZEALAND’S LEADING MUSIC SPECIALIST</h1>
-
-      <p class="flex flex-col font-sans text-cyan-400">This is the header</p>
+      <div class="bg-[#ef4136] w-screen flex flex-row items-end justify-between">
+        <img
+          class=" w-80 h-16"
+          src="https://github.com/kahikatea-2023/root-slash-period-workspace/blob/73bfc0907ba057104d0d3c533a4efed6433d8d1f/src/public/header.png?raw=true"
+          alt="Marbecks logo"
+        />
+        <h1 class="text-white font-bold ">
+          NEW ZEALAND’S LEADING MUSIC SPECIALIST
+        </h1>
+      </div>
     </div>
   )
 }
