@@ -1,7 +1,7 @@
 import { InferModel } from 'drizzle-orm'
 import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core'
 
-export const Album = sqliteTable('albums', {
+export const albums = sqliteTable('albums', {
   id: integer('id', { mode: 'number' }).primaryKey({ autoIncrement: true }),
   name: text('name').notNull(), // Name of the album
   author: text('author').notNull(), // Name of the author
@@ -12,4 +12,4 @@ export const Album = sqliteTable('albums', {
   image: text('image').notNull(), // URL of the album image
 })
 
-export type Album = InferModel<typeof Album>
+export type Album = InferModel<typeof albums>
