@@ -4,7 +4,7 @@ import * as elements from 'typed-html'
 import { db } from './db'
 import { eq } from 'drizzle-orm'
 import * as fs from 'fs'
-import { Album } from './db/schema'
+import { Album, albums } from './db/schema'
 import HomePage from './HomePage'
 import Header from './Header'
 
@@ -25,16 +25,33 @@ const app = new Elysia()
   )
 
   .get('/home', async () => {
+    const getAllAlbums = await db.select().from(albums).all()
     return (
       <div>
         <Header />
+        <SearchBar albums={getAllAlbums} />
         <HomePage />
+      </div>
+    )
+  })
+
+  .get('/search', async () => {
+    return (
+      <div>
+        <Header />
+        <SearchPage />
       </div>
     )
   })
 
   .get('/styles.css', () => Bun.file('./tailwind-gen/styles.css'))
   .listen(3000)
+
+// {
+//   body: t.Object({
+//     content: t.String({ minLength: 1 }),
+//   }),
+// }
 
 const server = Bun.serve({
   port: 3000,
@@ -61,6 +78,58 @@ const BaseHtml = ({ children }: elements.Children) => `
 
 ${children}
 `
+
+// -----SEARCH BAR ----
+
+function SearchBar({ albums }: { albums: Album[] }) {
+  return (
+    <div>
+      <h3>
+        Search Albums
+        <span class="htmx-indicator">
+          <img src="/img/bars.svg" /> Searching...
+        </span>
+      </h3>
+      <input
+        class="form-control"
+        type="search"
+        name="search"
+        placeholder="Begin Typing To Search Users..."
+        hx-post="/home"
+        hx-trigger="keyup changed delay:500ms, search"
+        hx-target="#search-results"
+        hx-indicator=".htmx-indicator"
+      />
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>name</th>
+            <th>author</th>
+            <th>yearOfRelease</th>
+            <th>price</th>
+            <th>image</th>
+          </tr>
+        </thead>
+        <tbody id="search-results"></tbody>
+        <tr>
+          {albums.map((album) => (
+            <div>
+              <td>{album.name}</td>
+              <td>{album.author}</td>
+            </div>
+          ))}
+        </tr>
+      </table>
+    </div>
+  )
+}
+
+// -----SEARCH PAGE----
+
+function SearchPage() {
+  return <div>This is the search page</div>
+}
 
 // ------------ EXAMPLE FORMATTING FROM BOILERPLATE -------------------
 
