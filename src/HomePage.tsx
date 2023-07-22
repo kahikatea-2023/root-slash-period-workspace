@@ -30,6 +30,13 @@ function HomePage({ albums }: { albums: Album[] }) {
         </div>
         <div class="w-11/12 border border-solid border-[#dcd3d7] bg-[#f7f5f6]">
           {/* ----------------------------------- ROWS OF 2 ARTISTS ------------------------------------ */}
+
+          <img
+            class="p-2 w-full"
+            src="https://github.com/kahikatea-2023/root-slash-period-workspace/blob/main/src/public/2023-07-H-Taylor-L.jpg?raw=true"
+            alt="Taylor"
+          />
+
           <div>
             <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-2 border border-solid border-[#dcd3d7]">
               New & Upcoming Releases
