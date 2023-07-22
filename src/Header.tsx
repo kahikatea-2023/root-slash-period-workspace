@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
       {/* Main Header */}
-      <div class="bg-[#ef4136] w-screen flex flex-row items-end justify-between">
+      <div class="bg-[#ef4136] flex flex-row items-end justify-between">
         <img
           class=" w-80 h-16"
           src="https://github.com/kahikatea-2023/root-slash-period-workspace/blob/73bfc0907ba057104d0d3c533a4efed6433d8d1f/src/public/header.png?raw=true"
