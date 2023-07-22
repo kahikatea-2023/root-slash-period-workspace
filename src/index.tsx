@@ -29,17 +29,21 @@ const app = new Elysia()
     return (
       <div>
         <Header />
-        <SearchBar albums={getAllAlbums} />
+        <SearchBar />
         <HomePage albums={getAllAlbums} />
       </div>
     )
   })
 
-  .get('/search', async () => {
+  .get('/search', async (req, res) => {
+    const getAllAlbums = await db.select().from(albums).all()
+    const search = req.query.q
+
+    console.log(search)
+
     return (
       <div>
-        <Header />
-        <SearchPage />
+        <SearchPage albums={getAllAlbums} />
       </div>
     )
   })
@@ -81,26 +85,45 @@ ${children}
 
 // -----SEARCH BAR ----
 
-function SearchBar({ albums }: { albums: Album[] }) {
+function SearchBar() {
   return (
     <div>
       <h3>
-        Search Albums
         <span class="htmx-indicator">
           <img src="/img/bars.svg" /> Searching...
         </span>
       </h3>
-      <input
-        class="form-control"
-        type="search"
-        name="search"
-        placeholder="Begin Typing To Search Users..."
-        hx-post="/home"
-        hx-trigger="keyup changed delay:500ms, search"
-        hx-target="#search-results"
-        hx-indicator=".htmx-indicator"
-      />
+      <form action="/contacts" method="get" class="tool-bar">
+        <label for="search">Search Term</label>
+        <input
+          id="search"
+          type="search"
+          name="q"
+          value="{{ request.args.get('q') or '' }}"
+          hx-get="/contacts"
+          hx-trigger="change, keyup delay:200ms changed"
+          hx-target="tbody"
+          hx-select="tbody tr"
+        />
 
+        <input type="submit" value="Search" />
+      </form>
+      <table>
+        ...
+        <tbody>...</tbody>
+      </table>
+      <button hx-get="/search" hx-trigger="click" hx-swap="outerHTML">
+        Search
+      </button>
+    </div>
+  )
+}
+
+// -----SEARCH PAGE----
+
+function SearchPage({ albums }: { albums: Album[] }) {
+  return (
+    <div>
       <table class="table">
         <thead>
           <tr>
@@ -123,12 +146,6 @@ function SearchBar({ albums }: { albums: Album[] }) {
       </table>
     </div>
   )
-}
-
-// -----SEARCH PAGE----
-
-function SearchPage() {
-  return <div>This is the search page</div>
 }
 
 // ------------ EXAMPLE FORMATTING FROM BOILERPLATE -------------------
