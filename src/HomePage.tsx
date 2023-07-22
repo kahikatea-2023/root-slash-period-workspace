@@ -151,23 +151,6 @@ function HomePage({ albums }: { albums: Album[] }) {
             <div class="bg-[#e7e1e4] rounded-b-sm text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
               » Find Out More Here
             </div>
-            <div class="flex flex-row">
-              {albums.slice(29, 33).map((album) => (
-                <div class="bg-[#e7e1e4] w-1/4 border border-solid border-[#dcd3d7] m-2">
-                  <img
-                    class="w-36 h-36 border border-white border-solid m-2"
-                    src={album.image}
-                    alt={album.name}
-                  />
-                  <div>
-                    <h2 class="text-[#ef4136] font-medium">{album.name}</h2>
-                    <p class="italic mb-1 text-sm">{album.yearOfRelease}</p>
-                    <p class="text-sm">{album.genre}</p>
-                    <p class="text-sm">${album.price}.00</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
           <div>
             <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
@@ -192,23 +175,6 @@ function HomePage({ albums }: { albums: Album[] }) {
             </div>
             <div class="bg-[#e7e1e4] rounded-b-sm text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
               » Explore More Albums On The Horizon Here
-            </div>
-            <div class="flex flex-row">
-              {albums.slice(39, 43).map((album) => (
-                <div class="bg-[#e7e1e4] w-1/4 border border-solid border-[#dcd3d7] m-2 flex">
-                  <img
-                    class="w-36 h-36 border border-white border-solid m-2"
-                    src={album.image}
-                    alt={album.name}
-                  />
-                  <div>
-                    <h2 class="text-[#ef4136] font-medium">{album.name}</h2>
-                    <p class="italic mb-1 text-sm">{album.yearOfRelease}</p>
-                    <p class="text-sm">{album.genre}</p>
-                    <p class="text-sm">${album.price}.00</p>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
           <div>
@@ -235,23 +201,7 @@ function HomePage({ albums }: { albums: Album[] }) {
             <div class="bg-[#e7e1e4] rounded-b-sm text-[#039] hover:text-[#4d1a80] m-1 p-1 border border-solid border-[#dcd3d7]">
               » Find more new and reissued Jazz albums here
             </div>
-            <div class="flex flex-row">
-              {albums.slice(5, 9).map((album) => (
-                <div class="bg-[#e7e1e4] w-1/4 border border-solid border-[#dcd3d7] m-2 flex">
-                  <img
-                    class="w-36 h-36 border border-white border-solid m-2"
-                    src={album.image}
-                    alt={album.name}
-                  />
-                  <div>
-                    <h2 class="text-[#ef4136] font-medium">{album.name}</h2>
-                    <p class="italic mb-1 text-sm">{album.yearOfRelease}</p>
-                    <p class="text-sm">{album.genre}</p>
-                    <p class="text-sm">${album.price}.00</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+
             <div>
               <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-1 p-1 border border-solid border-[#dcd3d7]">
                 We Have Over 4000 LPs in Stock
@@ -275,23 +225,6 @@ function HomePage({ albums }: { albums: Album[] }) {
               </div>
               <div class="bg-[#e7e1e4] rounded-b-sm p-1 m-1 text-[#039] hover:text-[#4d1a80] border border-solid border-[#dcd3d7]">
                 » Browse All Of Our In Stock Vinyl
-              </div>
-              <div class="flex flex-row">
-                {albums.slice(15, 19).map((album) => (
-                  <div class="bg-[#e7e1e4] w-1/4 border border-solid border-[#dcd3d7] flex m-2">
-                    <img
-                      class="w-36 h-36 border border-white border-solid m-2"
-                      src={album.image}
-                      alt={album.name}
-                    />
-                    <div>
-                      <h2 class="text-[#ef4136] font-medium">{album.name}</h2>
-                      <p class="italic mb-1 text-sm">{album.yearOfRelease}</p>
-                      <p class="text-sm">{album.genre}</p>
-                      <p class="text-sm">${album.price}.00</p>
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
             <Footer />
