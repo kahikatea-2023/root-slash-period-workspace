@@ -106,7 +106,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpgg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
     },
     {
       "name": "Nevermind",
@@ -261,89 +261,9 @@
       "genre": "Rock",
       "price": 21,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/MeatLoafBatOutofHell.jpg/220px-MeatLoafBatOutofHell.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Bat_out_of_Hell.jpg/220px-Bat_out_of_Hell.jpg"
     },
-    {
-      "name": "Purple Rain",
-      "author": "Prince",
-      "yearOfRelease": 1984,
-      "genre": "Pop",
-      "price": 19,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Princepurplerain.jpg/220px-Princepurplerain.jpg"
-    },
-    {
-      "name": "The Joshua Tree",
-      "author": "U2",
-      "yearOfRelease": 1987,
-      "genre": "Rock",
-      "price": 20,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/U2_The_Joshua_Tree.jpg/220px-U2_The_Joshua_Tree.jpg"
-    },
-    {
-      "name": "Hotel California",
-      "author": "Eagles",
-      "yearOfRelease": 1976,
-      "genre": "Rock",
-      "price": 21,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/220px-Hotelcalifornia.jpg"
-    },
-    {
-      "name": "Thriller",
-      "author": "Michael Jackson",
-      "yearOfRelease": 1982,
-      "genre": "Pop",
-      "price": 18,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png"
-    },
-    {
-      "name": "Rumours",
-      "author": "Fleetwood Mac",
-      "yearOfRelease": 1977,
-      "genre": "Rock",
-      "price": 19,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/FleetwoodMacRumours.jpg/220px-FleetwoodMacRumours.jpg"
-    },
-    {
-      "name": "Nevermind",
-      "author": "Nirvana",
-      "yearOfRelease": 1991,
-      "genre": "Grunge",
-      "price": 20,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg"
-    },
-    {
-      "name": "Led Zeppelin IV",
-      "author": "Led Zeppelin",
-      "yearOfRelease": 1971,
-      "genre": "Rock",
-      "price": 22,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg/220px-Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
-    },
-    {
-      "name": "In Utero",
-      "author": "Nirvana",
-      "yearOfRelease": 1993,
-      "genre": "Grunge",
-      "price": 17,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/NirvanaInUteroalbumcover.jpg/220px-NirvanaInUteroalbumcover.jpg"
-    },
-    {
-      "name": "The Wall",
-      "author": "Pink Floyd",
-      "yearOfRelease": 1979,
-      "genre": "Progressive Rock",
-      "price": 23,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pink_Floyd_-_The_Wall.jpg/220px-Pink_Floyd_-_The_Wall.jpg"
-    },
+   
     {
       "name": "Like a Virgin",
       "author": "Madonna",
@@ -351,7 +271,7 @@
       "genre": "Pop",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/MadonnaLikeAVirgin%28album%29.png/220px-MadonnaLikeAVirgin%28album%29.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/LikeAVirgin1984.png"
     },
     {
       "name": "Ten",
@@ -360,17 +280,9 @@
       "genre": "Grunge",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/PearlJam-Ten2.jpg/220px-PearlJam-Ten2.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/PearlJam-Ten2.jpg"
     },
-    {
-      "name": "Dark Side of the Moon",
-      "author": "Pink Floyd",
-      "yearOfRelease": 1973,
-      "genre": "Progressive Rock",
-      "price": 21,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png"
-    },
+   
     {
       "name": "The Eminem Show",
       "author": "Eminem",
@@ -378,7 +290,7 @@
       "genre": "Hip Hop",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/The_Eminem_Show.jpg/220px-The_Eminem_Show.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg"
     },
     {
       "name": "Blood Sugar Sex Magik",
@@ -387,7 +299,7 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedHotChiliPeppersBloodSugarSexMagik.jpg/220px-RedHotChiliPeppersBloodSugarSexMagik.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/RHCP-BSSM.jpg"
     },
     {
       "name": "Songs in the Key of Life",
@@ -396,7 +308,7 @@
       "genre": "Soul",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Songs_in_the_Key_of_Life.png/220px-Songs_in_the_Key_of_Life.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Songs_in_the_key_of_life.jpg"
     },
     {
       "name": "Supernatural",
@@ -405,17 +317,9 @@
       "genre": "Rock",
       "price": 21,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/SantanaSupernaturalAlbum.jpg/220px-SantanaSupernaturalAlbum.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Santana_-_Supernatural_-_CD_album_cover.jpg"
     },
-    {
-      "name": "Back in Black",
-      "author": "AC/DC",
-      "yearOfRelease": 1980,
-      "genre": "Rock",
-      "price": 22,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/ACDC_Back_in_Black.jpg/220px-ACDC_Back_in_Black.jpg"
-    },
+  
     {
       "name": "The Suburbs",
       "author": "Arcade Fire",
@@ -423,7 +327,7 @@
       "genre": "Indie Rock",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/The_Suburbs_%28Arcade_Fire_album%29.jpg/220px-The_Suburbs_%28Arcade_Fire_album%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Arcade_Fire_-_The_Suburbs.jpg"
     },
     {
       "name": "Californication",
@@ -432,17 +336,9 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/RedHotChiliPeppersCalifornication.jpg/220px-RedHotChiliPeppersCalifornication.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/df/RedHotChiliPeppersCalifornication.jpg"
     },
-    {
-      "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
-      "author": "David Bowie",
-      "yearOfRelease": 1972,
-      "genre": "Glam Rock",
-      "price": 19,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/David-Bowie-The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spiders-from-Mars.jpg/220px-David-Bowie-The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spiders-from-Mars.jpg"
-    },
+   
     {
       "name": "The Doors",
       "author": "The Doors",
@@ -450,7 +346,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Doorsalbumpromo.jpg/220px-Doorsalbumpromo.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/98/TheDoorsTheDoorsalbumcover.jpg"
     },
     {
       "name": "Court and Spark",
@@ -459,7 +355,7 @@
       "genre": "Folk",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Joni_Mitchell_-_Court_and_Spark.jpg/220px-Joni_Mitchell_-_Court_and_Spark.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/83/Courtandspark.jpeg"
     },
     {
       "name": "Are You Experienced",
@@ -468,7 +364,7 @@
       "genre": "Psychedelic Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/AreYouExperienced.jpg/220px-AreYouExperienced.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/AreyouexpUK.jpg/220px-AreyouexpUK.jpg"
     },
     {
       "name": "Goodbye Yellow Brick Road",
@@ -477,7 +373,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Goodbye_Yellow_Brick_Road.png/220px-Goodbye_Yellow_Brick_Road.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Elton_John_-_Goodbye_Yellow_Brick_Road.jpg"
     },
     {
       "name": "London Calling",
@@ -486,7 +382,7 @@
       "genre": "Punk Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/LondonCallingLondonCalling.jpg/220px-LondonCallingLondonCalling.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/TheClashLondonCallingalbumcover.jpg"
     }
   ]
 }
