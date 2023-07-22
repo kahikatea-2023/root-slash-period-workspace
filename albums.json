@@ -7,7 +7,7 @@
       "genre": "Pop",
       "price": 15,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/m/Michael%20Jackson_-_Thriller%20-%20front.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
     },
     {
       "name": "Abbey Road",
@@ -16,7 +16,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/t/The%20Beatles%20-%20Abbey%20Road%20(1969)%20[vk].jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
     },
     {
       "name": "Rumours",
@@ -25,7 +25,7 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/f/Fleetwood%20Mac%20-%20Rumours%20[vk].jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG"
     },
     {
       "name": "Purple Rain",
@@ -34,7 +34,7 @@
       "genre": "Pop",
       "price": 17,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/p/Prince%20-%20Purple%20Rain%201990%20[vk].jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Princepurplerain.jpg"
     },
     {
       "name": "Dark Side of the Moon",
@@ -43,7 +43,7 @@
       "genre": "Rock",
       "price": 21,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/p/Pink_Floyd_-_Dark_Side_Of_The_Moon-front.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
     },
     {
       "name": "Born to Run",
@@ -52,7 +52,7 @@
       "genre": "Rock",
       "price": 16,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/b/bruce_springsteen_-_born_to_run_a.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Born_to_Run_%28Front_Cover%29.jpg/220px-Born_to_Run_%28Front_Cover%29.jpg"
     },
     {
       "name": "Back in Black",
@@ -61,7 +61,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/a/ACDC_BACK_IN_BLACK_A.JPG"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/ACDC_Back_in_Black_cover.svg/1200px-ACDC_Back_in_Black_cover.svg.png"
     },
     {
       "name": "The Wall",
@@ -70,7 +70,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/p/Pink%20Floyd%20-%20The%20Wall%201979%20[vk].jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/The_Wall_Cover.svg"
     },
     {
       "name": "Like a Prayer",
@@ -79,7 +79,7 @@
       "genre": "Pop",
       "price": 15,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/m/Madonna_-_Like_A_Prayer-front.jpg"
+      "image": "https://m.media-amazon.com/images/I/518hoXm9MuL._UF894,1000_QL80_.jpg"
     },
     {
       "name": "Graceland",
@@ -88,7 +88,7 @@
       "genre": "Folk",
       "price": 18,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/p/Paul%20Simon%20-%20Graceland%201986%20[vk].jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Graceland_cover_-_Paul_Simon.jpg"
     },
     {
       "name": "Hotel California",
@@ -97,7 +97,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/t/The%20Eagles%20-%20Hotel%20California%20[vk].jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg"
     },
     {
       "name": "Led Zeppelin IV",
@@ -106,7 +106,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://www.covercentury.com/covers/audio/l/led-zeppelin-with-sandy-denny-led-zeppelin-iv_led-zeppelin_29251371.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpgg"
     },
     {
       "name": "Nevermind",
@@ -115,7 +115,7 @@
       "genre": "Grunge",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
     },
     {
       "name": "A Night at the Opera",
@@ -124,7 +124,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Queen_A_Night_At_The_Opera.png/220px-Queen_A_Night_At_The_Opera.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png"
     },
     {
       "name": "The Joshua Tree",
