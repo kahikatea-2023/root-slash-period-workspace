@@ -1,7 +1,27 @@
 import * as elements from 'typed-html'
 import Footer from './Footer'
+import { Album } from './db/schema'
 
-function HomePage() {
+async function fetchAlbumsData(): Promise<Album[]> {
+  try {
+    const response = await fetch('your-database-url/albums')
+    const data = await response.json()
+
+    // Ensure data is an array and matches the Album type defined in schema.ts
+    if (Array.isArray(data)) {
+      return data as Album[]
+    } else {
+      console.error('Data is not in the expected format.')
+      return []
+    }
+  } catch (error) {
+    console.error('Error fetching data:', error)
+    return []
+  }
+}
+
+async function HomePage() {
+  const albumsData = await fetchAlbumsData()
   return (
     <div>
       <div class="flex flex-row items-start">
@@ -33,44 +53,59 @@ function HomePage() {
             <div class="text-[#ef4136] bg-[#e7e1e4] rounded-t-sm font-bold m-2 border border-solid border-[#dcd3d7]">
               New & Upcoming Releases
             </div>
-            <div class="flex flex-row">
+
+            {albumsData.map((album) => (
               <div class="bg-[#e7e1e4] w-1/2 border border-solid border-[#dcd3d7] flex m-2">
                 <img
                   class="w-36 h-36 border border-white border-solid m-2"
-                  src="https://imgproxy.ra.co/_/quality:66/w:1500/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Jldmlld3MvMjAyMy9yeXVpY2hpLXNha2Ftb3RvLTEyLXJhLXJlY29tbWVuZHMtY292ZXIuanBn"
-                  alt="Ryuichi Sakamoto"
+                  src={album.image}
+                  alt={album.name}
                 />
                 <div>
-                  <h2 class="text-[#ef4136] font-medium">Ryuichi Sakamoto</h2>
-                  <p class="italic mb-1 text-sm">12</p>
-                  <p class="text-sm">
-                    An intimate collection of twelve compositions by Ryuichi
-                    Sakamoto, written and recorded in Tokyo during...
-                  </p>
-                  <p class="text-sm">$25.00</p>
+                  <h2 class="text-[#ef4136] font-medium">{album.name}</h2>
+                  <p class="italic mb-1 text-sm">{album.yearOfRelease}</p>
+                  <p class="text-sm">{album.genre}</p>
+                  <p class="text-sm">${album.price}.00</p>
                 </div>
               </div>
-              <div class="bg-[#e7e1e4] w-1/2 border border-solid border-[#dcd3d7] flex m-2">
-                <img
-                  class=" w-36 h-36 border border-white border-solid m-2"
-                  src="https://imgproxy.ra.co/_/quality:66/w:1500/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Jldmlld3MvMjAyMy9yeXVpY2hpLXNha2Ftb3RvLTEyLXJhLXJlY29tbWVuZHMtY292ZXIuanBn"
-                  alt="Ryuichi Sakamoto"
-                />
+            ))}
+          </div>
+          <div class="flex flex-row">
+            <div class="bg-[#e7e1e4] w-1/2 border border-solid border-[#dcd3d7] flex m-2">
+              <img
+                class="w-36 h-36 border border-white border-solid m-2"
+                src="https://imgproxy.ra.co/_/quality:66/w:1500/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Jldmlld3MvMjAyMy9yeXVpY2hpLXNha2Ftb3RvLTEyLXJhLXJlY29tbWVuZHMtY292ZXIuanBn"
+                alt="Ryuichi Sakamoto"
+              />
+              <div>
+                <h2 class="text-[#ef4136] font-medium">Ryuichi Sakamoto</h2>
+                <p class="italic mb-1 text-sm">12</p>
+                <p class="text-sm">
+                  An intimate collection of twelve compositions by Ryuichi
+                  Sakamoto, written and recorded in Tokyo during...
+                </p>
+                <p class="text-sm">$25.00</p>
+              </div>
+            </div>
+            <div class="bg-[#e7e1e4] w-1/2 border border-solid border-[#dcd3d7] flex m-2">
+              <img
+                class=" w-36 h-36 border border-white border-solid m-2"
+                src="https://imgproxy.ra.co/_/quality:66/w:1500/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Jldmlld3MvMjAyMy9yeXVpY2hpLXNha2Ftb3RvLTEyLXJhLXJlY29tbWVuZHMtY292ZXIuanBn"
+                alt="Ryuichi Sakamoto"
+              />
 
-                <div>
-                  <h2 class="text-[#ef4136] font-medium">
-                    African Head Charge
-                  </h2>
-                  <p class="italic mb-1 text-sm">A Trip To Bolgatanga</p>
-                  <p class="text-sm">
-                    African Head Charge, the legendary collaboration between
-                    master percussionist Bonjo Iyabinghi Noah and...
-                  </p>
-                  <p class="text-sm">$37.00</p>
-                </div>
+              <div>
+                <h2 class="text-[#ef4136] font-medium">African Head Charge</h2>
+                <p class="italic mb-1 text-sm">A Trip To Bolgatanga</p>
+                <p class="text-sm">
+                  African Head Charge, the legendary collaboration between
+                  master percussionist Bonjo Iyabinghi Noah and...
+                </p>
+                <p class="text-sm">$37.00</p>
               </div>
             </div>
           </div>
+
           {/* ----------------------------------- ROWS OF 4 ARTISTS ------------------------------------ */}
           <div class="flex flex-row">
             <div class="bg-[#e7e1e4] w-1/4 border border-solid border-[#dcd3d7] flex m-2">
