@@ -1,27 +1,8 @@
 import * as elements from 'typed-html'
 import Footer from './Footer'
-import { Album } from './db/schema'
+import { albums, Album } from './db/schema'
 
-async function fetchAlbumsData(): Promise<Album[]> {
-  try {
-    const response = await fetch('your-database-url/albums')
-    const data = await response.json()
-
-    // Ensure data is an array and matches the Album type defined in schema.ts
-    if (Array.isArray(data)) {
-      return data as Album[]
-    } else {
-      console.error('Data is not in the expected format.')
-      return []
-    }
-  } catch (error) {
-    console.error('Error fetching data:', error)
-    return []
-  }
-}
-
-async function HomePage() {
-  const albumsData = await fetchAlbumsData()
+function HomePage({ albums }: { albums: Album[] }) {
   return (
     <div>
       <div class="flex flex-row items-start">
@@ -54,7 +35,7 @@ async function HomePage() {
               New & Upcoming Releases
             </div>
 
-            {albumsData.map((album) => (
+            {albums.slice(0, 6).map((album) => (
               <div class="bg-[#e7e1e4] w-1/2 border border-solid border-[#dcd3d7] flex m-2">
                 <img
                   class="w-36 h-36 border border-white border-solid m-2"

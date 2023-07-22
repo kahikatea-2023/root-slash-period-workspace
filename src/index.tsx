@@ -4,7 +4,7 @@ import * as elements from 'typed-html'
 import { db } from './db'
 import { eq } from 'drizzle-orm'
 import * as fs from 'fs'
-import { Album } from './db/schema'
+import { Album, albums } from './db/schema'
 import HomePage from './HomePage'
 import Header from './Header'
 
@@ -25,10 +25,13 @@ const app = new Elysia()
   )
 
   .get('/home', async () => {
+    const getAllAlbums = await db.select().from(albums).all()
+    console.log(typeof getAllAlbums)
+
     return (
       <div>
         <Header />
-        <HomePage />
+        <HomePage albums={getAllAlbums} />
       </div>
     )
   })
