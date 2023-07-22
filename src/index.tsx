@@ -30,7 +30,7 @@ const app = new Elysia()
       <div>
         <Header />
         <SearchBar albums={getAllAlbums} />
-        <HomePage />
+        <HomePage albums={getAllAlbums} />
       </div>
     )
   })
