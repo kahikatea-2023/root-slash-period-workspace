@@ -133,7 +133,7 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/U2_The_Joshua_Tree.png/220px-U2_The_Joshua_Tree.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Joshua_Tree.png"
     },
     {
       "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
@@ -142,7 +142,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/David_Bowie_-_Ziggy_Stardust_and_the_Spiders_from_Mars.jpg/220px-David_Bowie_-_Ziggy_Stardust_and_the_Spiders_from_Mars.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg"
     },
     {
       "name": "Appetite for Destruction",
@@ -151,7 +151,7 @@
       "genre": "Rock",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Guns_N%27_Roses_-_Appetite_for_Destruction.jpg/220px-Guns_N%27_Roses_-_Appetite_for_Destruction.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg"
     },
     {
       "name": "Are You Experienced",
@@ -160,7 +160,7 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Are_You_Experienced_%28The_Jimi_Hendrix_Experience_album_-_cover_art%29.jpg/220px-Are_You_Experienced_%28The_Jimi_Hendrix_Experience_album_-_cover_art%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Are_You_Experienced_-_US_cover-edit.jpg"
     },
     {
       "name": "Legend",
@@ -169,7 +169,7 @@
       "genre": "Reggae",
       "price": 16,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Legend_%28Bob_Marley_%26_The_Wailers_album%29.jpg/220px-Legend_%28Bob_Marley_%26_The_Wailers_album%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/BobMarley-Legend.jpg"
     },
     {
       "name": "The Chronic",
@@ -178,7 +178,7 @@
       "genre": "Hip Hop",
       "price": 21,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/TheChronic.jpg/220px-TheChronic.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/Dr.DreTheChronic.jpg"
     },
     {
       "name": "Back to Black",
@@ -187,7 +187,7 @@
       "genre": "Soul",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Amy_Winehouse_-_Back_to_Black_%28album%29.jpg/220px-Amy_Winehouse_-_Back_to_Black_%28album%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Amy_Winehouse_-_Back_to_Black_%28album%29.png"
     },
     {
       "name": "The White Album",
@@ -196,7 +196,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/TheBeatlesWhiteAlbum-OriginalCover.jpg/220px-TheBeatlesWhiteAlbum-OriginalCover.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/TheBeatles68LP.jpg"
     },
     {
       "name": "Born in the U.S.A.",
@@ -205,7 +205,7 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bruce_Springsteen_-_Born_in_the_U.S.A..jpg/220px-Bruce_Springsteen_-_Born_in_the_U.S.A..jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG"
     },
     {
       "name": "A Night at the Roxbury",
@@ -214,7 +214,7 @@
       "genre": "Soundtrack",
       "price": 15,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/A_Night_at_the_Roxbury_soundtrack.jpg/220px-A_Night_at_the_Roxbury_soundtrack.jpg"
+      "image": "https://i.scdn.co/image/ab67616d0000b27349e4cd358c2c5f41d8643f52"
     },
     {
       "name": "Viva la Vida or Death and All His Friends",
@@ -223,7 +223,7 @@
       "genre": "Alternative",
       "price": 16,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.jpg/220px-Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Coldplay_-_Viva_la_Vida_or_Death_and_All_His_Friends.png"
     },
     {
       "name": "Meteora",
@@ -232,17 +232,9 @@
       "genre": "Alternative",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Linkin_Park_-_Meteora.jpg/220px-Linkin_Park_-_Meteora.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Linkin_Park_Meteora_Album_Cover.jpg"
     },
-    {
-      "name": "Legend",
-      "author": "Bob Marley and the Wailers",
-      "yearOfRelease": 1984,
-      "genre": "Reggae",
-      "price": 16,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Legend_%28Bob_Marley_%26_The_Wailers_album%29.jpg/220px-Legend_%28Bob_Marley_%26_The_Wailers_album%29.jpg"
-    },
+    
     {
       "name": "Hysteria",
       "author": "Def Leppard",
@@ -250,17 +242,9 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Def_Leppard_-_Hysteria.jpg/220px-Def_Leppard_-_Hysteria.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Def_Leppard_-_Hysteria_%28vinyl_version%29.jpg"
     },
-    {
-      "name": "Appetite for Destruction",
-      "author": "Guns N' Roses",
-      "yearOfRelease": 1987,
-      "genre": "Rock",
-      "price": 17,
-      "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Guns_N%27_Roses_-_Appetite_for_Destruction.jpg/220px-Guns_N%27_Roses_-_Appetite_for_Destruction.jpg"
-    },
+
     {
       "name": "Diamond Life",
       "author": "Sade",
@@ -268,7 +252,7 @@
       "genre": "Soul",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Diamond_Life.jpg/220px-Diamond_Life.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Sade_-_Diamond_Life.png"
     },
     {
       "name": "Bat Out of Hell",
