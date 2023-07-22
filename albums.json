@@ -7,7 +7,7 @@
       "genre": "Pop",
       "price": 15,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
+      "image": "https://www.covercentury.com/covers/audio/m/Michael%20Jackson_-_Thriller%20-%20front.jpg"
     },
     {
       "name": "Abbey Road",
@@ -16,7 +16,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Beatles_-_Abbey_Road.jpg/220px-Beatles_-_Abbey_Road.jpg"
+      "image": "https://www.covercentury.com/covers/audio/t/The%20Beatles%20-%20Abbey%20Road%20(1969)%20[vk].jpg"
     },
     {
       "name": "Rumours",
@@ -25,7 +25,7 @@
       "genre": "Rock",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/FleetwoodMacRumours.jpg/220px-FleetwoodMacRumours.jpg"
+      "image": "https://www.covercentury.com/covers/audio/f/Fleetwood%20Mac%20-%20Rumours%20[vk].jpg"
     },
     {
       "name": "Purple Rain",
@@ -34,7 +34,7 @@
       "genre": "Pop",
       "price": 17,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/Prince_Purple_Rain.png"
+      "image": "https://www.covercentury.com/covers/audio/p/Prince%20-%20Purple%20Rain%201990%20[vk].jpg"
     },
     {
       "name": "Dark Side of the Moon",
@@ -43,7 +43,7 @@
       "genre": "Rock",
       "price": 21,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+      "image": "https://www.covercentury.com/covers/audio/p/Pink_Floyd_-_Dark_Side_Of_The_Moon-front.jpg"
     },
     {
       "name": "Born to Run",
@@ -52,7 +52,7 @@
       "genre": "Rock",
       "price": 16,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Born_To_Run.jpg"
+      "image": "https://www.covercentury.com/covers/audio/b/bruce_springsteen_-_born_to_run_a.jpg"
     },
     {
       "name": "Back in Black",
@@ -61,7 +61,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Acdc_back_in_black.JPG/220px-Acdc_back_in_black.JPG"
+      "image": "https://www.covercentury.com/covers/audio/a/ACDC_BACK_IN_BLACK_A.JPG"
     },
     {
       "name": "The Wall",
@@ -70,7 +70,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/PinkFloydWallCoverOriginalNoText.jpg/220px-PinkFloydWallCoverOriginalNoText.jpg"
+      "image": "https://www.covercentury.com/covers/audio/p/Pink%20Floyd%20-%20The%20Wall%201979%20[vk].jpg"
     },
     {
       "name": "Like a Prayer",
@@ -79,7 +79,7 @@
       "genre": "Pop",
       "price": 15,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Madonna_-_Like_a_Prayer.png/220px-Madonna_-_Like_a_Prayer.png"
+      "image": "https://www.covercentury.com/covers/audio/m/Madonna_-_Like_A_Prayer-front.jpg"
     },
     {
       "name": "Graceland",
@@ -88,7 +88,7 @@
       "genre": "Folk",
       "price": 18,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Paul_Simon_-_Graceland.jpg/220px-Paul_Simon_-_Graceland.jpg"
+      "image": "https://www.covercentury.com/covers/audio/p/Paul%20Simon%20-%20Graceland%201986%20[vk].jpg"
     },
     {
       "name": "Hotel California",
@@ -97,7 +97,7 @@
       "genre": "Rock",
       "price": 20,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/220px-Hotelcalifornia.jpg"
+      "image": "https://www.covercentury.com/covers/audio/t/The%20Eagles%20-%20Hotel%20California%20[vk].jpg"
     },
     {
       "name": "Led Zeppelin IV",
@@ -106,7 +106,7 @@
       "genre": "Rock",
       "price": 19,
       "completed": false,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Led_Zeppelin_-_Led_Zeppelin_IV.jpg/220px-Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
+      "image": "https://www.covercentury.com/covers/audio/l/led-zeppelin-with-sandy-denny-led-zeppelin-iv_led-zeppelin_29251371.jpg"
     },
     {
       "name": "Nevermind",
